@@ -40,8 +40,11 @@ namespace AT02
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            
             app.UseStaticFiles();
-
+            
+            app.UseSession();
+            
             app.UseRouting();
 
             app.UseAuthorization();
