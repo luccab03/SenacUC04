@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E4mLhr1TIj8nUKsKokS2aQyr3m3o3TFZ7oU6WUp6msqQf7InffopBt3qB2JcQOFnI6fQoDd03olWuI2XL/aJwA==",
+  "success": true,
+  "projectFilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/AT02.csproj",
+  "expectedPackageFiles": [
+    "/Users/luccab/.nuget/packages/mysqlconnector/1.0.1/mysqlconnector.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
