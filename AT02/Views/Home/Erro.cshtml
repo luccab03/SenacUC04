@@ -1,0 +1,13 @@
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Erro";
+}
+
+<div class="text-center">
+    <h1>Você não tem permissão para realizar o cadastro de usuarios</h1>
+    @if(Context.Session.GetInt32("tipoUsuario") == 1){
+        <h2>Contate um administrador para efetuar um cadastro</h2>
+    } else if(Context.Session.GetInt32("tipoUsuario") == null){
+        <h2><a asp-controller="Home" asp-action="Login">Efetue login para utilizar essa função</a></h2>
+    }
+</div>

@@ -1,7 +1,7 @@
 TODO SITE DE ROTAS TURISTICAS: 
 (DESTINO CERTO)
-	- Sessão
-	- Login com dois tipos de usuario:
+	!- Sessão
+	!- Login com dois tipos de usuario:
 		* administrador - tipo 0
 			- Pode adicionar/remover outros usuarios
 			- Pode adicionar/remover/editar pacotes
@@ -10,14 +10,14 @@ TODO SITE DE ROTAS TURISTICAS:
 	- Ambos usuarios podem fazer manutenção, edição e exclusão de pacotes.
 	- Vitrine para usuarios não-logados
 
-Cadastro:
+Cadastro: check
 	- Nome
 	- Nascimento
 	- Login
 	- Senha
 	- Tipo (0/1)
 
-Pacotes:
+Pacotes: check
 	- Nome
 	- Origem
 	- Destino
@@ -28,7 +28,7 @@ Pacotes:
 
 Páginas:
 	- Vitrine
-	- Login/Cadastro
+	- !Login/Cadastro
 	- Quem Somos
 	- Fale Conosco
 	- Sistema de adicionar, editar e remover pacotes

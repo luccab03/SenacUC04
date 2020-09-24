@@ -23,24 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa19e5dd-8b4b-449a-bc86-44b827d1eff1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/PacoteDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/UsuarioDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AT02.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AT02.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Home/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Login.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Pacote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Pacote.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Usuario.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UsuarioDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UsuarioDatabase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO SITE DE ROTAS TURISTICAS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO SITE DE ROTAS TURISTICAS.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Examples2/Views/Usuario/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Examples2/Models/Repositorio.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UC05/NotasAluno/Models/BaseDados.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Examples/ProdutoRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,24 +64,30 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/901a4977-457c-4d61-a328-6012ec2c4dcf/console.sql" />
         <option value="$PROJECT_DIR$/Models/asdas.cshtml" />
         <option value="$PROJECT_DIR$/Models/Usuario.cs" />
-        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/Models/UsuarioDatabase.cs" />
         <option value="$PROJECT_DIR$/Models/Pacote.cs" />
         <option value="$PROJECT_DIR$/Models/PacoteDatabase.cs" />
         <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/TODO SITE DE ROTAS TURISTICAS.txt" />
+        <option value="$PROJECT_DIR$/Views/Home/Teste.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Home/QTes.cshtml" />
+        <option value="$PROJECT_DIR$/Views/Home/Login.cshtml" />
+        <option value="$PROJECT_DIR$/Models/UsuarioDatabase.cs" />
+        <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1hxHtCeCp4FXFL0EuaWjViyUGSq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -135,6 +144,8 @@
       <updated>1600946039838</updated>
       <workItem from="1600946045392" duration="8207000" />
       <workItem from="1600956665806" duration="4404000" />
+      <workItem from="1600981788120" duration="1557000" />
+      <workItem from="1600983483230" duration="164000" />
     </task>
     <servers />
   </component>
@@ -154,6 +165,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -181,21 +193,21 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state width="1324" height="187" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1600959029113" />
-    <state x="192" y="35" key="SettingsEditor" timestamp="1600956822064">
+    <state x="192" y="35" key="SettingsEditor" timestamp="1600983430011">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="192" y="35" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1600956822064" />
+    <state x="192" y="35" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1600983430011" />
     <state x="110" y="143" width="1146" height="505" key="VCS.FileHistoryDialog" timestamp="1600948111624">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="110" y="143" width="1146" height="505" key="VCS.FileHistoryDialog/0.23.1366.745@0.23.1366.745" timestamp="1600948111624" />
-    <state x="347" y="177" key="run.anything.popup" timestamp="1600954937327">
+    <state x="347" y="177" key="run.anything.popup" timestamp="1600983113830">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="347" y="177" key="run.anything.popup/0.23.1366.745@0.23.1366.745" timestamp="1600954937327" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600955068371">
+    <state x="347" y="177" key="run.anything.popup/0.23.1366.745@0.23.1366.745" timestamp="1600983113830" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600983243901">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.23.1366.745@0.23.1366.745" timestamp="1600955068371" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.23.1366.745@0.23.1366.745" timestamp="1600983243901" />
   </component>
 </project>

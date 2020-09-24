@@ -23,19 +23,20 @@ namespace AT02.Models
             connection.Close();
         }
 
-        public Usuario Query(int id)
+        public Usuario Query(string login)
         {
             MySqlConnection connection = new MySqlConnection(DataString);
             connection.Open();
-            string comando = "SELECT * FROM Usuarios WHERE idUsuario = @Id ORDER BY nomeUsuario";
+            string comando = "SELECT * FROM Usuarios WHERE loginUsuario = @Id";
             MySqlCommand command = new MySqlCommand(comando, connection);
-            command.Parameters.AddWithValue("@Id", id);
+            command.Parameters.AddWithValue("@Id", login);
             MySqlDataReader reader = command.ExecuteReader();
-            Usuario user = new Usuario();
+            Usuario user = null;
             while (reader.Read())
             {
-                if (reader.GetInt32("idUsuario") == id)
+                if (reader.GetString("loginUsuario") == login)
                 {
+                    user = new Usuario();
                     user.Id = reader.GetInt32("idUsuario");
 
                     if (!reader.IsDBNull(reader.GetOrdinal("nomeUsuario")))
