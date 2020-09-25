@@ -56,6 +56,39 @@ namespace AT02.Models
             return user;
         }
 
+        public Usuario Query(int id)
+        {
+            MySqlConnection connection = new MySqlConnection(DataString);
+            connection.Open();
+            string comando = "SELECT * FROM Usuarios WHERE idUsuario = @Id";
+            MySqlCommand command = new MySqlCommand(comando, connection);
+            command.Parameters.AddWithValue("@Id", id);
+            MySqlDataReader reader = command.ExecuteReader();
+            Usuario user = null;
+            while (reader.Read())
+            {
+                if (reader.GetInt32("idUsuario") == id)
+                {
+                    user = new Usuario();
+                    user.Id = reader.GetInt32("idUsuario");
+
+                    if (!reader.IsDBNull(reader.GetOrdinal("nomeUsuario")))
+                        user.Nome = reader.GetString("nomeUsuario");
+                    if (!reader.IsDBNull(reader.GetOrdinal("dataNascimento")))
+                        user.Nascimento = reader.GetDateTime("dataNascimento");
+                    if (!reader.IsDBNull(reader.GetOrdinal("loginUsuario")))
+                        user.Login = reader.GetString("loginUsuario");
+                    if (!reader.IsDBNull(reader.GetOrdinal("senhaUsuario")))
+                        user.Senha = reader.GetString("senhaUsuario");
+                    if (!reader.IsDBNull(reader.GetOrdinal("tipoUsuario")))
+                        user.Tipo = reader.GetInt32("tipoUsuario");
+                }
+            }
+
+            connection.Close();
+            return user;
+        }
+
         public List<Usuario> Query()
         {
             MySqlConnection connection = new MySqlConnection(DataString);
@@ -114,5 +147,7 @@ namespace AT02.Models
             command.ExecuteNonQuery();
             connection.Close();
         }
+
+        
     }
 }

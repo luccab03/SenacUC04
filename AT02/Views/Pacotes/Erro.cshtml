@@ -8,6 +8,6 @@
     @if(Context.Session.GetInt32("tipoUsuario") == 1){
         <h2>Contate um administrador para efetuar um cadastro</h2>
     } else if(Context.Session.GetInt32("tipoUsuario") == null){
-        <h2><a asp-controller="Home" asp-action="Login">Efetue login para utilizar essa função</a></h2>
+        <h2><a asp-controller="Usuario" asp-action="Login">Efetue login para utilizar essa função</a></h2>
     }
 </div>

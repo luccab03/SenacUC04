@@ -28,8 +28,8 @@ Pacotes: check
 
 Páginas:
 	- Vitrine
-	- !Login/Cadastro
+	- !Login/!Cadastro
 	- Quem Somos
 	- Fale Conosco
 	- Sistema de adicionar, editar e remover pacotes
-	- Sistema de adicionar, editar e remover usuarios
+	- !Sistema de adicionar, editar e remover usuarios

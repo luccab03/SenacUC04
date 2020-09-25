@@ -8,6 +8,7 @@
     <title>@ViewData["Title"] - Destino Certo</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="~/css/dropdown.css"/>
 </head>
 <body>
 <header>
@@ -23,20 +24,53 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
+                    @if(Context.Session.GetInt32("tipoUsuario") == 1 || Context.Session.GetInt32("tipoUsuario") == 0){
+                        <div class="dropdown nav-item">
+                            <a href="#" class="dropbtn nav-link text-dark">Pacotes</a>
+                            <div class="dropdown-content">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Pacotes" asp-action="Cadastrar">Cadastrar Pacotes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Pacotes" asp-action="Alterar">Alterar Pacotes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Pacotes" asp-action="Deletar">Deletar Pacotes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Pacotes" asp-action="Listar">Listar Pacotes</a>
+                                </li>
+                            </div>
+                        </div>
+                    }
                     @if(Context.Session.GetInt32("tipoUsuario") == 0){
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cadastrar">Cadastrar</a>
-                        </li>
+                        <div class="dropdown nav-item">
+                            <a href="#" class="dropbtn nav-link text-dark">Usuários</a>
+                            <div class="dropdown-content">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Cadastrar">Cadastrar Usuarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Alterar">Alterar Usuarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Deletar">Deletar Usuarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Lista">Listar Usuarios</a>
+                                </li>
+                            </div>
+                        </div>
                     }
                 </ul>
             </div>
             @if (Context.Session.GetInt32("idUsuario") != null)
             {
-                <span class="text-dark pr-1">Bem Vindo, @Context.Session.GetString("nomeUsuario") -</span><a class="text-dark" asp-area="" asp-controller="Home" asp-action="Logout" >Sair</a>
+                <span class="text-dark pr-1">Bem Vindo, @Context.Session.GetString("nomeUsuario") -</span><a class="text-dark" asp-area="" asp-controller="Usuario" asp-action="Logout" >Sair</a>
             }
             else
             {
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Login">Login</a>
             }
         </div>
     </nav>

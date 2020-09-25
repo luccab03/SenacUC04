@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Listar Pacotes";
+    PacoteDatabase db = new PacoteDatabase();
+    List<Pacote> lista = db.Query();
+    UsuarioDatabase udb = new UsuarioDatabase();
+}
+
+<h2>Lista de Pacotes</h2>
+@foreach (Pacote pct in lista)
+{
+    <ul>
+        <li>@pct.Nome</li>
+        <ul>
+            <li>Origem: @pct.Origem</li>
+            <li>Destino: @pct.Destino</li>
+            <li>Atrativos: @pct.Atrativos</li>
+            <li>Data de Saída: @pct.Saida.ToString("dd/MM/yyyy")</li>
+            <li>Data de Retorno: @pct.Retorno.ToString("dd/MM/yyyy")</li>
+            @{
+                string criador = $"{pct.IdCriador}/{udb.Query(pct.IdCriador).Nome}";
+
+                <li>Id do Criador/Nome: @criador</li>
+            }
+            <li>Id do Pacote: @pct.IdPacote</li>
+        </ul>
+    </ul>
+}
+

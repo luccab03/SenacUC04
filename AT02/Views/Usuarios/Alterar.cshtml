@@ -1,0 +1,56 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Alterar Cadastro";
+}
+
+<h2>Cadastro</h2>
+<p>@ViewBag.mensagema</p>
+<form method="GET">
+    <p>
+        <label asp-for="Id">Id do Usuario a ser modificado: </label>
+        <input asp-for="Id" type="number" />
+        <input type="submit" value="Buscar" />
+    </p>
+</form>
+
+
+@if(ViewData["Alterado"] != null){
+    Usuario user = (Usuario) ViewData["Alterado"];
+    <form method="POST">  
+        <p>
+            <label asp-for="Login">Login:</label>
+            <input asp-for="Login" value="@user.Login"/>
+        </p>
+        <p>
+        <label asp-for="Senha">Senha:</label>
+        <input asp-for="Senha" value="@user.Senha" />
+        </p>
+        <p>
+            <label asp-for="Nome">Nome:</label>
+            <input asp-for="Nome" value="@user.Nome"/>
+        </p>
+        <p>
+            <label asp-for="Nascimento">Data de nascimento:</label>
+            <input asp-for="Nascimento" type="text" value="@user.Nascimento.ToString("dd/MM/yyyy");"/>
+        </p>
+        <p>
+            <label asp-for="Tipo">Tipo:</label>
+            <select asp-for="Tipo">
+                @if (user.Tipo == 0)
+                {
+                    <option value=0 selected>Administrador</option>
+                    <option value=1>Colaborador</option>
+                } else if (user.Tipo == 1){
+                    <option value=0>Administrador</option>
+                    <option value=1 selected>Colaborador</option>
+                } else {
+                    <option value=0>Administrador</option>
+                    <option value=1>Colaborador</option>
+                }
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Cadastrar" />
+        </p>
+    </form>
+}

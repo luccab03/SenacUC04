@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Listagem de Usuários";
+    UsuarioDatabase ud = new UsuarioDatabase();
+    List<Usuario> lista = ud.Query();
+}
+
+<h2>Usuários cadastrados</h2>
+@foreach (Usuario usr in lista)
+{
+    <ul>
+        <li>Nome: @usr.Nome</li>
+        <ul>
+            <li>Id: @usr.Id</li>
+            <li>Login: @usr.Login</li>
+            <li>Senha: @usr.Senha</li>
+            <li>Nascimento: @usr.Nascimento.ToString("dd/MM/yyyy")</li>
+            @if (usr.Tipo == 0) { <li>Tipo: Administrador</li> }  
+            else if (usr.Tipo == 1) { <li>Tipo: Colaborador</li> }
+        </ul>
+    </ul>
+}
+

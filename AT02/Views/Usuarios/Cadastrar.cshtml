@@ -1,0 +1,35 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Signup";
+}
+
+<h2>Cadastro</h2>
+<p>@ViewBag.mensagemc</p>
+<form method="POST">
+    <p>
+        <label asp-for="Login">Login:</label>
+        <input asp-for="Login" />
+    </p>
+    <p>
+        <label asp-for="Senha">Senha:</label>
+        <input asp-for="Senha" type="password" />
+    </p>
+    <p>
+        <label asp-for="Nome">Nome:</label>
+        <input asp-for="Nome" />
+    </p>
+    <p>
+        <label asp-for="Nascimento">Data de nascimento:</label>
+        <input asp-for="Nascimento" type="text" placeholder="MM/DD/YYYY"/>
+    </p>
+    <p>
+        <label asp-for="Tipo">Tipo:</label>
+        <select asp-for="Tipo">
+            <option value=0>Administrador</option>
+            <option value=1>Colaborador</option>
+        </select>
+    </p>
+    <p>
+        <input type="submit" value="Cadastrar" />
+    </p>
+</form>

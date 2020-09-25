@@ -1,0 +1,16 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Deletar";
+}
+
+<h2>Deletar</h2>
+<p>@ViewBag.mensagemd</p>
+<form method="POST">
+    <p>
+        <label asp-for="Id">Id do usuário a ser deletado: </label>
+        <input asp-for="Id" type="number" />
+    </p>
+    <p>
+        <input type="submit" />
+    </p>
+</form>

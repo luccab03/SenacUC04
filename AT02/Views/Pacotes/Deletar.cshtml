@@ -1,0 +1,16 @@
+@model Pacote
+@{
+    ViewData["Title"] = "Deletar Pacotes";
+}
+
+<h2>Deletar Pacote</h2>
+<p>@ViewBag.feedbackdel</p>
+<form method="POST">
+    <p>
+        <label asp-for="IdPacote">Id do Pacote a ser excluido: </label>
+        <input asp-for="IdPacote" />
+    </p>
+    <p>
+        <input type="submit" />
+    </p>
+</form>
