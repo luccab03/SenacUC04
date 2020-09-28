@@ -27,9 +27,9 @@ Pacotes: check
 	- ID do Usuario que criou (Trazer na View o Nome não id)
 
 Páginas:
-	- Vitrine
+	- !Vitrine
 	- !Login/!Cadastro
-	- Quem Somos
-	- Fale Conosco
-	- Sistema de adicionar, editar e remover pacotes
+	- !Quem Somos
+	- !Fale Conosco
+	- !Sistema de adicionar, editar e remover pacotes
 	- !Sistema de adicionar, editar e remover usuarios

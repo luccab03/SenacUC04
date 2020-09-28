@@ -3,14 +3,14 @@
     ViewData["Title"] = "Deletar Pacotes";
 }
 
-<h2>Deletar Pacote</h2>
-<p>@ViewBag.feedbackdel</p>
+<div class="text-center">
+    <h1 class="h3 mb-3 font-weight-normal">Deletar Pacote</h1>
+    <h1 class="h6 mb-3 font-weight-normal">@ViewBag.feedbackdel</h1>
+</div>
 <form method="POST">
-    <p>
-        <label asp-for="IdPacote">Id do Pacote a ser excluido: </label>
-        <input asp-for="IdPacote" />
-    </p>
-    <p>
-        <input type="submit" />
-    </p>
+    <div class="form-group form-inline">
+        <label asp-for="IdPacote" class="mr-2">Id do Pacote a ser excluido: </label>
+        <input asp-for="IdPacote" class="form-control mr-1"/>
+        <input type="submit" value="Deletar" class="btn btn-primary"/>
+    </div>
 </form>

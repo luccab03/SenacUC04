@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Vitrine";
+    PacoteDatabase pd = new PacoteDatabase();
+    List<Pacote> lista = pd.Query();
+}
+
+<div class="text-center">
+    <h1 class="h3 mb-3 font-weight-normal">Vitrine de Pacotes</h1>
+</div>
+@foreach (Pacote pct in lista)
+{
+    <ul>
+        <li>@pct.Nome</li>
+        <ul>
+            <li>Origem: @pct.Origem</li>
+            <li>Destino: @pct.Destino</li>
+            <li>Atrativos: @pct.Atrativos</li>
+            <li>Data de Saída: @pct.Saida.ToString("dd/MM/yyyy")</li>
+            <li>Data de Retorno: @pct.Retorno.ToString("dd/MM/yyyy")</li>
+        </ul>
+    </ul>
+}

@@ -3,14 +3,14 @@
     ViewData["Title"] = "Deletar";
 }
 
-<h2>Deletar</h2>
-<p>@ViewBag.mensagemd</p>
+<div class="text-center">
+    <h1 class="h3 mb-3 font-weight-normal">Deletar</h1>
+    <h1 class="h6 mb-3 font-weight-normal">@ViewBag.mensagemd</h1>
+</div>
 <form method="POST">
-    <p>
-        <label asp-for="Id">Id do usuário a ser deletado: </label>
-        <input asp-for="Id" type="number" />
-    </p>
-    <p>
-        <input type="submit" />
-    </p>
+    <div class="form-group form-inline">
+        <label asp-for="Id" class="mr-2">Id do usuário a ser deletado: </label>
+        <input asp-for="Id" type="number" class="form-control mr-1"/>
+        <input type="submit" value="Deletar" class="btn btn-primary"/>
+    </div>
 </form>

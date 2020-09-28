@@ -1,55 +1,50 @@
 @model Pacote
 @{
     ViewData["Title"] = "Alterar Pacote";
-    Pacote pacote = (Pacote) ViewData["PacoteAlterado"];
-    List<Pacote> lista = new List<Pacote>();
-    List<string> nomes = new List<string>();
-    foreach (Pacote pct in lista)
-    {
-        nomes.Add(pct.Nome);
-    }
 }
 
-<h2>Alterar pacote</h2>
-<p>@ViewBag.feedbackalt
-</p>
+<div class="text-center">
+    <h1 class="h3 mb-3 font-weight-normal">Alterar pacote</h1>
+    <h1 class="h6 mb-3 font-weight-normal">@ViewBag.feedbackalt</h1>
+</div>
 <form method="GET">
-    <p>
-        <label asp-for="IdPacote">Digite o id do pacote a ser alterado: </label>
-        <input asp-for="IdPacote" />
-        <input type="submit" value="Buscar" />
-    </p>
+    <div class="form-group form-inline">
+        <label asp-for="IdPacote" class="mr-2">Digite o id do pacote a ser alterado: </label>
+        <input asp-for="IdPacote" class="form-control mr-1"/>
+        <input type="submit" value="Buscar" class="btn btn-primary"/>
+    </div>
 </form>
 
 @if(ViewData["PacoteAlterado"] != null){
+    Pacote pacote = (Pacote) ViewData["PacoteAlterado"];
     <form method="POST">
-       <p>
-        <label asp-for="Nome">Nome do Pacote: </label>
-        <input asp-for="Nome" value="@pacote.Nome"/>
-    </p>
-    <p>
-        <label asp-for="Origem">Origem do Pacote: </label>
-        <input asp-for="Origem" value="@pacote.Origem"/>
-    </p>
-    <p>
-        <label asp-for="Destino">Destino do Pacote: </label>
-        <input asp-for="Destino" value="@pacote.Destino"/>
-    </p>
-    <p>
-        <label asp-for="Atrativos">Atrativos do Pacote: </label>
-        <input asp-for="Atrativos" value="@pacote.Atrativos"/>
-    </p>
-    <p>
-        <label asp-for="Saida">Data de Saída:</label>
-        <input asp-for="Saida" type="text" value='@pacote.Saida.ToString("dd/MM/yyyy")' placeholder="MM/DD/YYYY"/>
-    </p>
-    <p>
-        <label asp-for="Retorno">Data de Retorno:</label>
-        <input asp-for="Retorno" type="text" value='@pacote.Retorno.ToString("dd/MM/yyyy")' placeholder="MM/DD/YYYY"/>
-    </p>
-    <p>Id do criador: @pacote.IdCriador</p>
-    <p>
-        <input type="submit" value="Atualizar"/>
-    </p>
+        <div class="form-group">
+            <label asp-for="Nome">Nome do Pacote: </label>
+            <input asp-for="Nome" value="@pacote.Nome" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Origem">Origem do Pacote: </label>
+            <input asp-for="Origem" value="@pacote.Origem" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Destino">Destino do Pacote: </label>
+            <input asp-for="Destino" value="@pacote.Destino" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Atrativos">Atrativos do Pacote: </label>
+            <input asp-for="Atrativos" value="@pacote.Atrativos" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Saida">Data de Saída:</label>
+            <input asp-for="Saida" type="text" value='@pacote.Saida.ToString("dd/MM/yyyy")' placeholder="MM/DD/YYYY" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Retorno">Data de Retorno:</label>
+            <input asp-for="Retorno" type="text" value='@pacote.Retorno.ToString("dd/MM/yyyy")' placeholder="MM/DD/YYYY" class="form-control"/>
+        </div>
+        <p>Id do criador: @pacote.IdCriador</p>
+        <div class="form-group">
+            <input type="submit" value="Atualizar" class="btn btn-primary"/>
+        </div>
     </form>
 }

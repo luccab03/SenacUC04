@@ -24,6 +24,22 @@ namespace AT02.Controllers
             return View();
         }
 
+        public IActionResult Contato(){
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Contato(Contato contato){
+            ContatoDatabase cd = new ContatoDatabase();
+            cd.Inserir(contato);
+            ViewBag.feedbackcon = "Sua mensagem foi enviada!";
+            return View();
+        }
+
+        public IActionResult Vitrine(){
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -3,39 +3,41 @@
     ViewData["Title"] = "Alterar Cadastro";
 }
 
-<h2>Alterar cadastro</h2>
-<p>@ViewBag.mensagema</p>
+<div class="text-center">
+    <h1 class="h3 mb-3 font-weight-normal">Alterar cadastro</h1>
+    <h1 class="h6 mb-3 font-weight-normal">@ViewBag.mensagema</h1>
+</div>
 <form method="GET">
-    <p>
-        <label asp-for="Id">Id do Usuario a ser modificado: </label>
-        <input asp-for="Id" type="number" />
-        <input type="submit" value="Buscar" />
-    </p>
+    <div class="form-group form-inline">
+        <label asp-for="Id" class="mr-2">Id do Usuario a ser modificado: </label>
+        <input asp-for="Id" type="number" class="form-control mr-1"/>
+        <input type="submit" value="Buscar" class="btn btn-primary"/>
+    </div>
 </form>
 
 
 @if(ViewData["Alterado"] != null){
     Usuario user = (Usuario) ViewData["Alterado"];
     <form method="POST">  
-        <p>
+        <div class="form-group">
             <label asp-for="Login">Login:</label>
-            <input asp-for="Login" value="@user.Login"/>
-        </p>
-        <p>
-        <label asp-for="Senha">Senha:</label>
-        <input asp-for="Senha" value="@user.Senha" />
-        </p>
-        <p>
+            <input asp-for="Login" value="@user.Login" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Senha">Senha:</label>
+            <input asp-for="Senha" value="@user.Senha" class="form-control"/>
+        </div>
+        <div class="form-group">
             <label asp-for="Nome">Nome:</label>
-            <input asp-for="Nome" value="@user.Nome"/>
-        </p>
-        <p>
+            <input asp-for="Nome" value="@user.Nome" class="form-control"/>
+        </div>
+        <div class="form-group">
             <label asp-for="Nascimento">Data de nascimento:</label>
-            <input asp-for="Nascimento" type="text" value="@user.Nascimento.ToString("dd/MM/yyyy");"/>
-        </p>
-        <p>
+            <input asp-for="Nascimento" type="text" value="@user.Nascimento.ToString("dd/MM/yyyy");" class="form-control"/>
+        </div>
+        <div class="form-group">
             <label asp-for="Tipo">Tipo:</label>
-            <select asp-for="Tipo">
+            <select asp-for="Tipo" class="form-control">
                 @if (user.Tipo == 0)
                 {
                     <option value=0 selected>Administrador</option>
@@ -48,9 +50,9 @@
                     <option value=1>Colaborador</option>
                 }
             </select>
-        </p>
-        <p>
-            <input type="submit" value="Cadastrar" />
-        </p>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Cadastrar" class="btn btn-primary"/>
+        </div>
     </form>
 }

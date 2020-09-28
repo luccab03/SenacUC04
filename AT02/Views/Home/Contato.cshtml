@@ -1,0 +1,35 @@
+@model Contato
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<div class="text-center">
+    <h2 class="h3 font-weight-normal">Entre em contato:</h2>
+    <h1 class="h6 font-weight-normal">@ViewBag.feedbackcon</h1>
+</div>
+<form method="POST">
+    <div class="form-group">
+        <label asp-for="NomeCompleto">Nome Completo: </label>
+        <input asp-for="NomeCompleto" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email">Email: </label>
+        <input asp-for="Email" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Assunto">Assunto: </label>
+        <select asp-for="Assunto" class="form-control">
+            <option value="Suporte">Suporte</option>
+            <option value="Contratar">Contratar</option>
+            <option value="Financeiro">Financeiro</option>
+            <option value="Outro Assunto">Outro Assunto</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Mensagem">Mensagem: </label>
+        <textarea asp-for="Mensagem" class="form-control" rows="3" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Enviar" class="btn btn-primary btn-block">
+    </div>
+</form>

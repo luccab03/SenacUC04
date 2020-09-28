@@ -14467,8 +14467,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Home/Vitrine.cshtml",
+      "TargetPath": "Views\\Home\\Vitrine.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacote/Listar.cshtml",
       "TargetPath": "Views\\Pacote\\Listar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Home/Contato.cshtml",
+      "TargetPath": "Views\\Home\\Contato.cshtml",
       "FileKind": "mvc"
     },
     {

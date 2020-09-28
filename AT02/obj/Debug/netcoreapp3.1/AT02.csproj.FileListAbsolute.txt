@@ -45,3 +45,5 @@
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Erro.cshtml.g.cs
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Lista.cshtml.g.cs
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Login.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contato.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Home/Vitrine.cshtml.g.cs
