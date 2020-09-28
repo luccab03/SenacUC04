@@ -83,7 +83,8 @@ namespace AT02.Controllers
         }
 
         [HttpGet]
-        public IActionResult Alterar(int id){
+        public IActionResult Alterar(int id)
+        {
             if (HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
                 UsuarioDatabase ud = new UsuarioDatabase();

@@ -14392,53 +14392,33 @@
   "RootNamespace": "AT02",
   "Documents": [
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuarios/Erro.cshtml",
-      "TargetPath": "Views\\Usuarios\\Erro.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacote/Erro.cshtml",
+      "TargetPath": "Views\\Pacote\\Erro.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacotes/Alterar.cshtml",
-      "TargetPath": "Views\\Pacotes\\Alterar.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacote/Alterar.cshtml",
+      "TargetPath": "Views\\Pacote\\Alterar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacotes/Erro.cshtml",
-      "TargetPath": "Views\\Pacotes\\Erro.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuario/Erro.cshtml",
+      "TargetPath": "Views\\Usuario\\Erro.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuarios/Alterar.cshtml",
-      "TargetPath": "Views\\Usuarios\\Alterar.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacote/Cadastrar.cshtml",
+      "TargetPath": "Views\\Pacote\\Cadastrar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacotes/Listar.cshtml",
-      "TargetPath": "Views\\Pacotes\\Listar.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuario/Deletar.cshtml",
+      "TargetPath": "Views\\Usuario\\Deletar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacotes/Deletar.cshtml",
-      "TargetPath": "Views\\Pacotes\\Deletar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuarios/Cadastrar.cshtml",
-      "TargetPath": "Views\\Usuarios\\Cadastrar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacotes/Cadastrar.cshtml",
-      "TargetPath": "Views\\Pacotes\\Cadastrar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuarios/Lista.cshtml",
-      "TargetPath": "Views\\Usuarios\\Lista.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuarios/Deletar.cshtml",
-      "TargetPath": "Views\\Usuarios\\Deletar.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuario/Login.cshtml",
+      "TargetPath": "Views\\Usuario\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14457,8 +14437,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuarios/Login.cshtml",
-      "TargetPath": "Views\\Usuarios\\Login.cshtml",
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuario/Lista.cshtml",
+      "TargetPath": "Views\\Usuario\\Lista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuario/Cadastrar.cshtml",
+      "TargetPath": "Views\\Usuario\\Cadastrar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Usuario/Alterar.cshtml",
+      "TargetPath": "Views\\Usuario\\Alterar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14469,6 +14459,16 @@
     {
       "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacote/Deletar.cshtml",
+      "TargetPath": "Views\\Pacote\\Deletar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/luccab/OneDrive/Curso/UC04/AT02/Views/Pacote/Listar.cshtml",
+      "TargetPath": "Views\\Pacote\\Listar.cshtml",
       "FileKind": "mvc"
     },
     {

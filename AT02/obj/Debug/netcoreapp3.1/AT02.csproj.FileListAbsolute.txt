@@ -34,9 +34,14 @@
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/AT02.dll
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/AT02.pdb
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/AT02.genruntimeconfig.cache
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Alterar.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Cadastrar.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Deletar.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Erro.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Listar.cshtml.g.cs
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Alterar.cshtml.g.cs
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Cadastrar.cshtml.g.cs
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Deletar.cshtml.g.cs
-/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Login.cshtml.g.cs
-/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Lista.cshtml.g.cs
 /Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Erro.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Lista.cshtml.g.cs
+/Users/luccab/OneDrive/Curso/UC04/AT02/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Login.cshtml.g.cs
