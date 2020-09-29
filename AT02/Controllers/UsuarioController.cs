@@ -15,27 +15,34 @@ namespace AT02.Controllers
         public IActionResult Login(Usuario usuario)
         {
             UsuarioDatabase ud = new UsuarioDatabase();
-            if (ud.Query(usuario.Login) != null) {
-                Usuario userDb = ud.Query(usuario.Login); 
-                    if(usuario.Senha == userDb.Senha){
-                        HttpContext.Session.SetInt32("idUsuario", userDb.Id);
-                        HttpContext.Session.SetString("nomeUsuario", userDb.Nome);
-                        HttpContext.Session.SetString("loginUsuario", userDb.Login);
-                        HttpContext.Session.SetString("senhaUsuario", userDb.Senha);
-                        HttpContext.Session.SetInt32("tipoUsuario", userDb.Tipo);
-                        HttpContext.Session.SetString("nascimentoUsuario", userDb.Nascimento.ToString("dd/mm/yyyy"));
-                        return Redirect("~/Home/Index");
-                    } else {
-                        ViewBag.mensagem = "Senha Incorreta";
-                    }
-                } else {
-                    ViewBag.mensagem = "Usuario não encontrado";
+            if (ud.Query(usuario.Login) != null)
+            {
+                Usuario userDb = ud.Query(usuario.Login);
+                if (usuario.Senha == userDb.Senha)
+                {
+                    HttpContext.Session.SetInt32("idUsuario", userDb.Id);
+                    HttpContext.Session.SetString("nomeUsuario", userDb.Nome);
+                    HttpContext.Session.SetString("loginUsuario", userDb.Login);
+                    HttpContext.Session.SetString("senhaUsuario", userDb.Senha);
+                    HttpContext.Session.SetInt32("tipoUsuario", userDb.Tipo);
+                    HttpContext.Session.SetString("nascimentoUsuario", userDb.Nascimento.ToString("dd/mm/yyyy"));
+                    return Redirect("~/Home/Index");
                 }
-            
+                else
+                {
+                    ViewBag.mensagem = "Senha Incorreta";
+                }
+            }
+            else
+            {
+                ViewBag.mensagem = "Usuario não encontrado";
+            }
+
             return View();
         }
 
-        public IActionResult Logout(){
+        public IActionResult Logout()
+        {
             HttpContext.Session.Clear();
             return Redirect("~/Home/Index");
         }
@@ -52,7 +59,8 @@ namespace AT02.Controllers
             }
         }
 
-        public IActionResult Lista(){
+        public IActionResult Lista()
+        {
             if (HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
                 return View();
@@ -64,14 +72,16 @@ namespace AT02.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastrar(Usuario usuario){
+        public IActionResult Cadastrar(Usuario usuario)
+        {
             UsuarioDatabase ud = new UsuarioDatabase();
             ud.Insert(usuario);
             ViewBag.mensagemc = "Cadastro efetuado com sucesso. Id do usuário = " + ud.Query(usuario.Login).Id;
             return View();
         }
 
-        public IActionResult Alterar(){
+        public IActionResult Alterar()
+        {
             if (HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
                 return View();
@@ -98,7 +108,8 @@ namespace AT02.Controllers
         }
 
         [HttpPost]
-        public IActionResult Alterar(Usuario user){
+        public IActionResult Alterar(Usuario user)
+        {
             if (HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
                 UsuarioDatabase ud = new UsuarioDatabase();
@@ -113,7 +124,8 @@ namespace AT02.Controllers
             }
         }
 
-        public IActionResult Deletar(){
+        public IActionResult Deletar()
+        {
             if (HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
                 return View();
@@ -125,7 +137,8 @@ namespace AT02.Controllers
         }
 
         [HttpPost]
-        public IActionResult Deletar(int id){
+        public IActionResult Deletar(int id)
+        {
             UsuarioDatabase ud = new UsuarioDatabase();
             if (HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {

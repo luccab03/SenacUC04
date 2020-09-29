@@ -30,7 +30,8 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contato">Contato</a>
                     </li>
-                    @if(Context.Session.GetInt32("tipoUsuario") == 1 || Context.Session.GetInt32("tipoUsuario") == 0){
+                    @if (Context.Session.GetInt32("tipoUsuario") == 1 || Context.Session.GetInt32("tipoUsuario") == 0)
+                    {
                         <div class="dropdown nav-item">
                             <a href="#" class="dropbtn nav-link text-dark">Pacotes</a>
                             <div class="dropdown-content">
@@ -49,7 +50,8 @@
                             </div>
                         </div>
                     }
-                    @if(Context.Session.GetInt32("tipoUsuario") == 0){
+                    @if (Context.Session.GetInt32("tipoUsuario") == 0)
+                    {
                         <div class="dropdown nav-item">
                             <a href="#" class="dropbtn nav-link text-dark">Usuários</a>
                             <div class="dropdown-content">
@@ -72,7 +74,8 @@
             </div>
             @if (Context.Session.GetInt32("idUsuario") != null)
             {
-                <span class="text-dark pr-1">Bem Vindo, @Context.Session.GetString("nomeUsuario") -</span><a class="text-dark" asp-area="" asp-controller="Usuario" asp-action="Logout" >Sair</a>
+                <span class="text-dark pr-1">Bem Vindo, @Context.Session.GetString("nomeUsuario") -</span>
+                <a class="text-dark" asp-area="" asp-controller="Usuario" asp-action="Logout">Sair</a>
             }
             else
             {

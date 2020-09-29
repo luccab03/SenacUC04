@@ -4,7 +4,7 @@
 }
 
 <div class="text-center">
-    <h1 class="h3 mb-3 font-weight-normal">Alterar pacote</h1>
+    <h1 class="h3 mb-3 font-weight-normal">Alteração de Pacote</h1>
     <h1 class="h6 mb-3 font-weight-normal">@ViewBag.feedbackalt</h1>
 </div>
 <form method="GET">
@@ -15,7 +15,8 @@
     </div>
 </form>
 
-@if(ViewData["PacoteAlterado"] != null){
+@if (ViewData["PacoteAlterado"] != null)
+{
     Pacote pacote = (Pacote) ViewData["PacoteAlterado"];
     <form method="POST">
         <div class="form-group">

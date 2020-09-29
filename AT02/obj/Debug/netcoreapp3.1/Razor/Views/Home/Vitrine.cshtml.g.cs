@@ -27,7 +27,7 @@ using AT02.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a18820a36a2b94a596923b63e976da6014331632", @"/Views/Home/Vitrine.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8df5e293c69c8455a3fc238493913b0807e04a1c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f3b7b0653ed039a8225855438db130e92288ee2", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Vitrine : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

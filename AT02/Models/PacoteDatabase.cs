@@ -86,6 +86,7 @@ namespace AT02.Models
                         pacote.IdCriador = reader.GetInt32("idCriador");
                 }
             }
+
             connection.Close();
             return pacote;
         }
@@ -119,6 +120,7 @@ namespace AT02.Models
                     pacote.IdCriador = reader.GetInt32("idCriador");
                 lista.Add(pacote);
             }
+
             connection.Close();
             return lista;
         }

@@ -14,9 +14,14 @@
             <li>Login: @usr.Login</li>
             <li>Senha: @usr.Senha</li>
             <li>Nascimento: @usr.Nascimento.ToString("dd/MM/yyyy")</li>
-            @if (usr.Tipo == 0) { <li>Tipo: Administrador</li> }  
-            else if (usr.Tipo == 1) { <li>Tipo: Colaborador</li> }
+            @if (usr.Tipo == 0)
+            {
+                <li>Tipo: Administrador</li>
+            }
+            else if (usr.Tipo == 1)
+            {
+                <li>Tipo: Colaborador</li>
+            }
         </ul>
     </ul>
 }
-

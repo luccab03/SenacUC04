@@ -45,9 +45,9 @@ namespace AT02
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
-            
+
             app.UseCookiePolicy();
-            
+
             app.UseSession();
 
             app.UseRouting();

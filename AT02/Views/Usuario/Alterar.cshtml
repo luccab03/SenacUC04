@@ -16,9 +16,10 @@
 </form>
 
 
-@if(ViewData["Alterado"] != null){
+@if (ViewData["Alterado"] != null)
+{
     Usuario user = (Usuario) ViewData["Alterado"];
-    <form method="POST">  
+    <form method="POST">
         <div class="form-group">
             <label asp-for="Login">Login:</label>
             <input asp-for="Login" value="@user.Login" class="form-control"/>
@@ -42,10 +43,14 @@
                 {
                     <option value=0 selected>Administrador</option>
                     <option value=1>Colaborador</option>
-                } else if (user.Tipo == 1){
+                }
+                else if (user.Tipo == 1)
+                {
                     <option value=0>Administrador</option>
                     <option value=1 selected>Colaborador</option>
-                } else {
+                }
+                else
+                {
                     <option value=0>Administrador</option>
                     <option value=1>Colaborador</option>
                 }

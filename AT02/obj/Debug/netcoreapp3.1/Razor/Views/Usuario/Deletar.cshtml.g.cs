@@ -27,7 +27,7 @@ using AT02.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8c62d2f434bd9c89909f4af6bdb27897b56adaea", @"/Views/Usuario/Deletar.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8df5e293c69c8455a3fc238493913b0807e04a1c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f3b7b0653ed039a8225855438db130e92288ee2", @"/Views/_ViewImports.cshtml")]
     public class Views_Usuario_Deletar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Usuario>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("mr-2"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

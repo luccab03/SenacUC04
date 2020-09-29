@@ -147,7 +147,5 @@ namespace AT02.Models
             command.ExecuteNonQuery();
             connection.Close();
         }
-
-        
     }
 }

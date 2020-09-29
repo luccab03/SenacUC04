@@ -11,10 +11,12 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="HomeController.cs" t="Include" />
-        <e p="PacotesController.cs" t="Include" />
-        <e p="UsuariosController.cs" t="Include" />
+        <e p="PacoteController.cs" t="Include" />
+        <e p="UsuarioController.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="Contato.cs" t="Include" />
+        <e p="ContatoDatabase.cs" t="Include" />
         <e p="ErrorViewModel.cs" t="Include" />
         <e p="Pacote.cs" t="Include" />
         <e p="PacoteDatabase.cs" t="Include" />
@@ -36,14 +38,15 @@
       </e>
       <e p="requisitos_atividade2.docx" t="Include" />
       <e p="Startup.cs" t="Include" />
-      <e p="TODO SITE DE ROTAS TURISTICAS.txt" t="Include" />
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
         <e p="Home" t="Include">
+          <e p="Contato.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
+          <e p="Vitrine.cshtml" t="Include" />
         </e>
-        <e p="Pacotes" t="Include">
+        <e p="Pacote" t="Include">
           <e p="Alterar.cshtml" t="Include" />
           <e p="Cadastrar.cshtml" t="Include" />
           <e p="Deletar.cshtml" t="Include" />
@@ -55,7 +58,7 @@
           <e p="_ValidationScriptsPartial.cshtml" t="Include" />
           <e p="Error.cshtml" t="Include" />
         </e>
-        <e p="Usuarios" t="Include">
+        <e p="Usuario" t="Include">
           <e p="Alterar.cshtml" t="Include" />
           <e p="Cadastrar.cshtml" t="Include" />
           <e p="Deletar.cshtml" t="Include" />
@@ -70,6 +73,9 @@
           <e p="site.css" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
+        <e p="img" t="Include">
+          <e p="banner_principal.jpg" t="Include" />
+        </e>
         <e p="js" t="Include">
           <e p="site.js" t="Include" />
         </e>
