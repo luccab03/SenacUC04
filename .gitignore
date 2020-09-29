@@ -2,3 +2,6 @@ Examples/*
 Examples
 Examples2
 Examples2/*
+**.idea
+**.vscode
+.DS_Store
