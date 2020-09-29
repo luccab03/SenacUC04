@@ -22,61 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa19e5dd-8b4b-449a-bc86-44b827d1eff1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AT02.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/PacoteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PacoteController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/UsuarioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UsuarioController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Contato.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Contato.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ContatoDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ContatoDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ErrorViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/PacoteDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/PacoteDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Usuario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/UsuarioDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UsuarioDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Pacote/Alterar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pacote/Alterar.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Pacote/Erro.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pacote/Erro.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Pacote/Listar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Pacote/Listar.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuario/Alterar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Usuario/Alterar.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuario/Erro.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Usuario/Erro.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuario/Lista.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Usuario/Lista.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Usuario/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Usuario/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/AT02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/AT02.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contato.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Contato.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Vitrine.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Home/Vitrine.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Alterar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Alterar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Cadastrar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Cadastrar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Deletar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Deletar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Erro.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Erro.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Listar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Pacote/Listar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Alterar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Alterar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Cadastrar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Cadastrar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Deletar.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Deletar.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Erro.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Erro.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Lista.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Lista.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/Usuario/Login.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
-    </list>
+    <list default="true" id="aa19e5dd-8b4b-449a-bc86-44b827d1eff1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +127,7 @@
       <workItem from="1600981788120" duration="1557000" />
       <workItem from="1600983483230" duration="164000" />
       <workItem from="1601163085157" duration="115000" />
-      <workItem from="1601397720209" duration="711000" />
+      <workItem from="1601397720209" duration="1009000" />
     </task>
     <servers />
   </component>
@@ -213,22 +159,22 @@
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="283" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1366.745@0.23.1366.745" timestamp="1600946674157" />
-    <state width="1324" height="187" key="GridCell.Tab.0.bottom" timestamp="1601397904397">
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom" timestamp="1601398810930">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1601397904397" />
-    <state width="1324" height="187" key="GridCell.Tab.0.center" timestamp="1601397904396">
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1601398810930" />
+    <state width="1324" height="187" key="GridCell.Tab.0.center" timestamp="1601398810928">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1601397904396" />
-    <state width="1324" height="187" key="GridCell.Tab.0.left" timestamp="1601397904395">
+    <state width="1324" height="187" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1601398810928" />
+    <state width="1324" height="187" key="GridCell.Tab.0.left" timestamp="1601398810922">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1601397904395" />
-    <state width="1324" height="187" key="GridCell.Tab.0.right" timestamp="1601397904397">
+    <state width="1324" height="187" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1601398810922" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right" timestamp="1601398810929">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1601397904397" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1601398810929" />
     <state x="192" y="35" key="SettingsEditor" timestamp="1600983430011">
       <screen x="0" y="23" width="1366" height="745" />
     </state>

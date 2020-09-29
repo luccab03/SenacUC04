@@ -14,6 +14,7 @@
         <e p="PacoteController.cs" t="Include" />
         <e p="UsuarioController.cs" t="Include" />
       </e>
+      <e p="DestinoCerto-database.sql" t="Include" />
       <e p="Models" t="Include">
         <e p="Contato.cs" t="Include" />
         <e p="ContatoDatabase.cs" t="Include" />
@@ -36,7 +37,6 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
-      <e p="requisitos_atividade2.docx" t="Include" />
       <e p="Startup.cs" t="Include" />
       <e p="Views" t="Include">
         <e p="_ViewImports.cshtml" t="Include" />
