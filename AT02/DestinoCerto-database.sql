@@ -38,8 +38,8 @@ CREATE TABLE `Contato` (
 --
 
 INSERT INTO `Contato` (`NomeCompleto`, `Email`, `Assunto`, `Mensagem`) VALUES
-('Lucca Bringhenti', 'bringhentilucca@gmail.com', 'Suporte', 'aSDASDASDASDASDcu\r\n'),
-('Lucca Bringhenti', 'bringhentilucca@gmail.com', 'Suporte', 'aSDASDASDASDASDcu\r\n'),
+('Lucca Bringhenti', 'email@email.com', 'Suporte', 'aSDASDASDASDASDcu\r\n'),
+('Lucca Bringhenti', 'teste@teste.com', 'Suporte', 'aSDASDASDASDASDcu\r\n'),
 ('Nome Completo', 'email@teste.com', 'Outro Assunto', 'Teste da aplicação');
 
 -- --------------------------------------------------------
@@ -49,7 +49,7 @@ INSERT INTO `Contato` (`NomeCompleto`, `Email`, `Assunto`, `Mensagem`) VALUES
 --
 
 CREATE TABLE `Pacotes` (
-  `idPacote` int(11) NOT NULL,
+  `idPacote` int(11) NOT NULL AUTO_INCREMENT,
   `nomePacote` varchar(255) DEFAULT NULL,
   `origemPacote` varchar(255) DEFAULT NULL,
   `destinoPacote` varchar(255) DEFAULT NULL,
@@ -64,8 +64,8 @@ CREATE TABLE `Pacotes` (
 --
 
 INSERT INTO `Pacotes` (`idPacote`, `nomePacote`, `origemPacote`, `destinoPacote`, `atrativosPacote`, `saidaPacote`, `retornoPacote`, `idCriador`) VALUES
-(5, 'Serra Gaúcha', 'Bento Gonçalves', 'Garibaldi', 'Tour completo da Serra Gaúcha', '2020-12-25', '2020-01-06', 1),
-(6, 'Rota Romântica', 'Caxias do Sul', 'Morro Reuter', 'Rota Romântica Gaúcha', '2020-05-04', '2020-05-14', 1);
+(1, 'Serra Gaúcha', 'Bento Gonçalves', 'Garibaldi', 'Tour completo da Serra Gaúcha', '2020-12-25', '2020-01-06', 1),
+(2, 'Rota Romântica', 'Caxias do Sul', 'Morro Reuter', 'Rota Romântica Gaúcha', '2020-05-04', '2020-05-14', 1);
 
 -- --------------------------------------------------------
 
@@ -89,8 +89,8 @@ CREATE TABLE `Usuarios` (
 INSERT INTO `Usuarios` (`idUsuario`, `nomeUsuario`, `dataNascimento`, `loginUsuario`, `senhaUsuario`, `tipoUsuario`) VALUES
 (1, 'Administrador', '2020-09-24 19:20:41', 'admin', 'admin', 0),
 (2, 'Colaborador', '2020-09-24 19:20:41', 'colab', 'colab', 1),
-(5, 'Lucca', '2003-05-04 00:00:00', 'luccab', 'lucca', 0),
-(6, 'Lucca', '2004-04-05 00:00:00', 'luccabcolab', 'lucca', 1);
+(3, 'Lucca', '2003-05-04 00:00:00', 'luccab', 'luccab', 0),
+(4, 'Lucca', '2004-04-05 00:00:00', 'luccabcolab', 'luccabcolab', 1);
 
 --
 -- Indexes for dumped tables
@@ -117,13 +117,13 @@ ALTER TABLE `Usuarios`
 -- AUTO_INCREMENT for table `Pacotes`
 --
 ALTER TABLE `Pacotes`
-  MODIFY `idPacote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `idPacote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `Usuarios`
 --
 ALTER TABLE `Usuarios`
-  MODIFY `idUsuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `idUsuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Constraints for dumped tables

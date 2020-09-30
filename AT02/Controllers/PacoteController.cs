@@ -12,6 +12,7 @@ namespace AT02.Controllers
             if (HttpContext.Session.GetInt32("tipoUsuario") == 1 || HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
                 ViewData["PacoteAlterado"] = null;
+                ViewBag.run = false;
                 return View();
             }
             else
@@ -19,15 +20,19 @@ namespace AT02.Controllers
                 return View("Erro");
             }
         }
-
+        
         [HttpGet]
         public IActionResult Alterar(int IdPacote)
         {
             if (HttpContext.Session.GetInt32("tipoUsuario") == 1 || HttpContext.Session.GetInt32("tipoUsuario") == 0)
             {
-                PacoteDatabase db = new PacoteDatabase();
-                Pacote pacote = db.Query(IdPacote);
-                ViewData["PacoteAlterado"] = pacote;
+                if (IdPacote != 0)
+                {
+                    PacoteDatabase db = new PacoteDatabase();
+                    Pacote pacote = db.Query(IdPacote);
+                    ViewData["PacoteAlterado"] = pacote;
+                }
+
                 return View();
             }
             else

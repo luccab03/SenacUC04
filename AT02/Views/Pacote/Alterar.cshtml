@@ -7,6 +7,7 @@
     <h1 class="h3 mb-3 font-weight-normal">Alteração de Pacote</h1>
     <h1 class="h6 mb-3 font-weight-normal">@ViewBag.feedbackalt</h1>
 </div>
+
 <form method="GET">
     <div class="form-group form-inline">
         <label asp-for="IdPacote" class="mr-2">Digite o id do pacote a ser alterado: </label>
@@ -15,10 +16,12 @@
     </div>
 </form>
 
+
 @if (ViewData["PacoteAlterado"] != null)
 {
     Pacote pacote = (Pacote) ViewData["PacoteAlterado"];
     <form method="POST">
+
         <div class="form-group">
             <label asp-for="Nome">Nome do Pacote: </label>
             <input asp-for="Nome" value="@pacote.Nome" class="form-control"/>
