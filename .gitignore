@@ -2,6 +2,9 @@ Examples/*
 Examples
 Examples2
 Examples2/*
-**.idea
+**.idea/
 **.vscode
 .DS_Store
+AT02/bin/**
+AT02/obj/**
+*.zip
