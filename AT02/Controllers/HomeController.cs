@@ -32,8 +32,11 @@ namespace AT02.Controllers
         [HttpPost]
         public IActionResult Contato(Contato contato)
         {
+            // Cria uma instancia do db
             ContatoDatabase cd = new ContatoDatabase();
+            // Insere o contato no db
             cd.Inserir(contato);
+            // Da o feedback para o usuário
             ViewBag.feedbackcon = "Sua mensagem foi enviada!";
             return View();
         }
